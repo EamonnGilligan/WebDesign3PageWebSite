@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <meta name="author" content="Eamonn Gilligan">
+    <meta name="MyWebsite" content="restaurant, food, hungry">
+    <meta name="" keyword="">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="javascript.js"></script>
+    <title>Italian Restaurant- Directions</title>
+</head>
+<body class="mapmap">
+    <header>
+        <h1>italian restaurant</h1>
+        <img src="logo.png" alt="logo">
+    </header>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="news.html">News</a>
+        <a href="directions.html">Directions</a>
+    </nav>
+    <main>
+        <h3>Restaurant Location</h3>
+        <div class="mapouter"><div class="gmap_canvas">
+        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=ATU%20sligo%20campus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="https://embedgooglemap.net/124/">Google Maps</a><br>
+        <a href="https://www.embedgooglemap.net"></a>
+        </div></div>
+        <p>My restaurants location is the Uni campus because I have no imagination.</p>
+    </main>
+    <aside>
+        <audio controls autoplay loop>
+            <source src="audio/pizzatime.mp3" type="audio/mp3">
+        </audio>
+        <iframe src="audio/pizzatime.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe>
+    </aside>
+    <footer><h6>It's the italian restaurant, we italian here.</h6></footer>
+</body>
+</html>
